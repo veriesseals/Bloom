@@ -261,16 +261,23 @@ body {
     color: azure;
 }
 
-#copyright, #footer_icons {
-    display: inline-block;
+/* #copyright, #footer_icons {
+    display: flex;
     vertical-align: middle;
+} */
+
+.inner_footer{
+    display: flex;
 }
 
+
 #copyright{
-    margin-left: 140px;
+    width: 500px;
+    margin-left: 130px;
 }
 #footer_icons{
-    margin-left: 780px;
+    width: 780px;
+    margin-right: 130px;
 }
 
 .clear{
