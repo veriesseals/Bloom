@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------------- */
+/* global css for out lining */
+* {
+    outline: 1px dotted red;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* ICO Moon CSS */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    color: whitesmoke;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+/* --------------------------------------------------------------------- */
+/* margin reset global */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------------------------- */
+/* header background color */
+
+.header {
+    padding: 15px 0;
+    background-color: rgb(59, 55, 55);
+}
+
+/* header h1 (Bloom Landing Page) color */
+
+.header h1{
+    color: azure;
+    width: 50%;
+    border: 1px solid white;
+    float: left;
+}
+
+/* --------------------------------------------------------------------- */
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------- */
+/* header placement */
+
+#social_media_icons{
+    float: left;
+    width: 40%;
+}
+
+.header ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+.header li {
+    display: inline;
+}
+
+/* --------------------------------------------------------------------- */
+
+.client_bold {
+    text-emphasis: bold;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Clear to reset the document */
+
+.clear {
+    clear: both;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* Fonts */
